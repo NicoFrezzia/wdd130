@@ -9,7 +9,7 @@ Fonts are separated by a & */
   --primary-color: #003052   ;
   --secondary-color: #565B48 ;
   --accent1-color: #BA2D0B;
-  --accent2-color: #BF8B85;
+  --accent2-color: #BF8B85; 
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Montserrat" , sans-serif;
