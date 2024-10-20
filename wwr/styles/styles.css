@@ -64,7 +64,6 @@ nav a:hover {
     font-size: 18px;
     border-radius: 5px;
 }
-<<<<<<< HEAD
 .book:hover, .join:hover{
     background-color: grey;
     color: white
@@ -94,29 +93,17 @@ h4{
     padding-bottom: 25px 50px;
     font-family: var(--paragraph-font);
     font-size: .8em;
-=======
-.join{
-    text-decoration: none;
-    color: whitesmoke;
-    background-color: rgba(230, 90, 140, 1);
->>>>>>> 11bf69d2fd2a7905a240f1955de27d2a9727c4b8
 }
 footer {
     background-color:rgba(20,30,13, .7);
     color: white;
-<<<<<<< HEAD
     padding-top: 15px;
     margin-top: 200px;
 }
-=======
-}
-
->>>>>>> 11bf69d2fd2a7905a240f1955de27d2a9727c4b8
 footer a {
     text-decoration: none;
     color: whitesmoke;
 }
-<<<<<<< HEAD
 footer p a:hover {
     text-decoration: underline;
 }    
@@ -127,32 +114,6 @@ footer p a:hover {
 .logo {
     width: 80px;
     padding-top: 5px;
-=======
-.icon {
-    width: 80px;
-}
-.logo {
-    width: 80px;
-}
-nav a {
-    text-align: center;
-    color: #fcfbfb;
-    text-decoration: none;
-}     
-footer a {
-    color: whitesmoke;
-}
-footer p {
-    font-size: 1.2em;
-    color: whitesmoke;
-} 
-footer p a:hover {
-    text-decoration: underline;
-}    
-.msg{
-    background-color:rgba(20,30,13, .7);
-    color: whitesmoke;
->>>>>>> 11bf69d2fd2a7905a240f1955de27d2a9727c4b8
 }
 #hero-img {
     width: 100%;
