@@ -51,7 +51,7 @@ header {
     background-color:rgba(20,30,13, .7);
 }
 nav a:hover {
-    background-color: black;
+    background-color: rgb(12 20 6 / 70%);;
     color: #d9c2a3;
 }   
  .book .join{
@@ -69,13 +69,13 @@ nav a:hover {
     color: white
 }
 .home-title{
-    color: #ffffff;
+    color: black;
     margin-top: 10px;
     font-family: var(--heading-font);
     font-size: 2em;
 }
 h4{
-    color: #ffffff;
+    color: black;
 }
 .msg{
     background-color:rgba(20,30,13, .7);
