@@ -215,6 +215,7 @@ footer p a:hover{
 /* form styles  */
 .contactus{
     text-align: center;
+    margin-top: -25%;
 }
 form {
     display: inline-block;
