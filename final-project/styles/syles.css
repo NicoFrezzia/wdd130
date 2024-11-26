@@ -439,21 +439,21 @@ hr{
     flex-wrap: wrap;
     gap: 2rem;
     justify-content: center;
-  }
-  .contact-icon-container{
+}
+.contact-icon-container{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 40%;
-  }
-  .contact-container a{
+}
+.contact-container a{
     text-decoration: none;
     position: relative;
     cursor: pointer;
     color: var(--text-color-light);
-  }
-  .contact-icon-container p a::after {
+}
+.contact-icon-container p a::after {
     content: "";
     position: absolute;
     height: 2px;
@@ -462,27 +462,27 @@ hr{
     width: 0;
     background-color: var(--secondary-color-light);
     transition: width .5s;
-  }
-  .contact-icon-container p a:hover:after {
+}
+.contact-icon-container p a:hover:after {
     width: 100%;
-  }
-  .contact-icon{
+}
+.contact-icon{
     font-size: 3rem;
     padding: .5rem;
     border-radius: 50%;
     width: 100px;;
-  }
-  .contact-icon:hover{
+}
+.contact-icon:hover{
     border: 2px solid var(--text-color-light);
     cursor: pointer;
-  }
-  .contact-icon-insta{
+}
+.contact-icon-insta{
     font-size: 3rem;
     padding: .5rem;
     border-radius: 100%;
-  }
-  /*******************     FOOTER     *******************/
-  .footer-container {
+}
+/*******************     FOOTER     *******************/
+.footer-container {
     background-color: var(--background-color-dark);
     display: flex;
     flex-direction: row;
@@ -492,26 +492,26 @@ hr{
     margin: 0;
     margin-top: 5rem;
     bottom: 0;
-  }
-  .footer-container ul {
+}
+.footer-container ul {
     margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
     gap: .5rem;
     padding: 3.5rem 0;
-  }
-  .footer-container ul li {
+}
+.footer-container ul li {
     margin: 0;
     padding: 0;
-  }
-  .footer-container ul li a {
+}
+.footer-container ul li a {
     text-decoration: none;
     color: var(--text-color-dark);
     margin: 0;
     padding: 0;
-  }
-  .footer-container button {
+}
+.footer-container button {
     width: 3rem;
     height: 3rem;
     border-radius: 50%;
@@ -519,8 +519,8 @@ hr{
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  .to-top {
+}
+.to-top {
     font-size: 2.5rem;
     color: var(--text-color-light)
-  }
+}
