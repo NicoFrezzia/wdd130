@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Week 12 Component Activity</title>
+    <link rel="stylesheet" href="styles/week12.css" />
+  </head>
+  <body>
+    <h1>Awesome Argentina!</h1>
+    <button class="accordion">History and Legacy</button>
+    <div class="panel">
+      <p>The Argentina national soccer team, known as “La Albiceleste” due to their iconic white and sky-blue jerseys, is one of the most successful teams in the history of international football. Established in 1893, the team has participated in numerous FIFA World Cups, with their first title win in 1978 on home soil. Argentina’s rich soccer history is marked by legendary players, unforgettable matches, and a passionate fan base.</p>
+    </div>
+
+    <button class="accordion">Star Player and Moments</button>
+    <div class="panel">
+      <p>Argentina has produced some of the greatest players in soccer history. Diego Maradona, famous for his “Hand of God” goal and dazzling skills, brought the nation its second World Cup title in 1986. Lionel Messi, often regarded as one of the best players of all time, led Argentina to Copa América glory in 2021 and their historic FIFA World Cup victory in 2022. These moments and players continue to inspire millions of fans worldwide.</p>
+    </div>
+
+    <button class="accordion">Fan Culture and Pride</button>
+    <div class="panel">
+      <p>Soccer is more than a sport in Argentina—it’s a way of life. The team’s supporters, known as “hinchas,” are renowned for their fervent chants, colorful displays, and unwavering loyalty. From the streets of Buenos Aires to the smallest towns, match days unite the country in a celebration of national pride and passion. The iconic blue and white stripes of the team jersey symbolize not just soccer excellence but also the spirit of Argentina.</p>
+    </div>
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.maxHeight) {
+            panel.style.maxHeight = null;
+            } else {
+            panel.style.maxHeight = panel.scrollHeight + "px";
+            } 
+        });
+        }
+    </script>
+  </body>
+</html>
