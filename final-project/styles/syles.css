@@ -16,44 +16,6 @@ body{
     color: var(--text-color-light);
   
 }
-@keyframes appear {
-    from {
-      opacity: 0;
-      scale: 0.9;
-    }
-    to {
-      opacity: 1;
-      scale: 1;
-    }
-  }
-.fade-out1{
-    animation: fade-out linear;
-    animation-timeline: view();
-    animation-range: exit -50px;
-}
-@keyframes fade-out {
-    to {opacity: 0;}
-}
-.animation-in {
-    animation: appear linear;
-    animation-timeline: view();
-    animation-range: entry 0% cover 20%;
-}
-.animation-in-link {
-    animation: appear linear;
-    animation-timeline: view();
-    animation-range: entry 0% cover 20%;
-}
-.animation-in-insta {
-    animation: appear linear;
-    animation-timeline: view();
-    animation-range: entry 0% cover 20%;
-}  
-.animation-in-fb {
-    animation: appear linear;
-    animation-timeline: view();
-    animation-range: entry 0% cover 10%;
-}
 .slide-out-up {
     animation: slideOutUp 0.5s forwards;
 }
