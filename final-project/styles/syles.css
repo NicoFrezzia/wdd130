@@ -8,8 +8,6 @@
     --text-color-dark: #F6f7eb;
     --secondary-color-dark: #E94F37;
 }
-  
-  
 body{
     font-family: "Montserrat", sans-serif;
     background-color: var(--background-color-light);
@@ -93,33 +91,35 @@ body{
 .headshot-container{
     display: flex;
     justify-content: center;
-    padding: 3rem 0;
+    padding: 1rem 0;
 }
 .headshot{
     border-radius: 50%;
     width: 25%;
-    max-width: 350px;
-    min-width: 250px;
+    max-width: 200px;
+    min-width: 100px;
+    padding: 0;
 }
 .home-hero{
     animation: fadeInUp;
     animation-delay: .25s;
     animation-iteration-count: 1;
-    padding:0 0;
+    padding:0;
 }
 .home-title{
     font-size: 5rem;
     line-height: 1.25;
     font-weight: 400;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     padding: 2rem 0;
+    text-align: center;
 }
 .home-description{
     font-size: 1.5rem;
-    width: 67%;
-    margin: 0;
-    padding: 0 0 2rem 0;
+    width: 80%;
+    margin: 0 auto;
+    padding: 0 0 1rem 0;
     line-height: 1.25;
 }
   /******************** EXPERIENCE PAGE *******************/
