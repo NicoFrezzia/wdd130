@@ -205,9 +205,10 @@ hr{
   }
   .project-image-desktop {
     width: 100%;
+    max-width: 750px;
+    max-height: 550px;
     border-radius: 1rem;
     transition: opacity 0.3s ease;
-    height: 300px;
   }
   .project-image-mobile{
     width: 100%;
